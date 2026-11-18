@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Vazirmatn", "Plus Jakarta Sans", system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  .font-latin {
+    font-family: "Plus Jakarta Sans", "Vazirmatn", sans-serif;
+  }
+
+  .font-spec {
+    font-family: "JetBrains Mono", monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
